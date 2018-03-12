@@ -18,7 +18,7 @@ func Provider() *schema.Provider {
 		},
 		ConfigureFunc: providerConfigure,
 		ResourcesMap: map[string]*schema.Resource{
-			"akamaix_network_list": resourceNetlist(),
+			"xakamai_network_list": resourceNetlist(),
 		},
 	}
 }
